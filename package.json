@@ -1,0 +1,19 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "A fun project to test out Slacks prowress",
+  "main": "lib/calveybot.js",
+  "bin": {
+  	"calveybot": "bin/bot.js"
+  },
+  "scripts": {
+  	"start": "node bin/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rob Russo <rrusso44@gmail.com> (robrusso.io)",
+  "license": "MIT",
+  "dependencies": {
+    "slackbots": "^0.5.1",
+    "sqlite3": "^3.1.1"
+  }
+}
